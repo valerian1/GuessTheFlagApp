@@ -33,6 +33,7 @@ struct ContentView: View {
                 ForEach(0..<3) { number in
                     Button {
                         flagTapped(number)
+                        print(countries[number])
 
                     } label: {
                         Image(countries[number])
